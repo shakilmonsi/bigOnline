@@ -1,0 +1,92 @@
+.reding_text_style{
+    color: rgba(42, 42, 42, 0.80);
+
+/* 14 med */
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.user_name_style{
+    color: var(--Black, #2A2A2A);
+
+/* 20 med */
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.line_style{
+    width: 1px;
+height: 14px;
+
+    background: rgba(176, 176, 176, 0.40);
+}
+.user_profile{
+    margin: auto;
+    justify-content: center;
+    width: 64px;
+height: 64px;
+border-radius: 100px;
+border: 3px solid var(--verified-2, #FFCC3A);
+
+/* shadow */
+box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.20);
+}
+.user_profile_img{
+    
+
+   
+    justify-content: center;
+    width: 84px;
+height: 84px;
+border-radius: 100px;
+
+;
+}
+.share_logos_and_style{
+    display: flex;
+    width: 128px;
+    height: 44px;
+    padding: 14px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    border-radius: 6px;
+border: 1.2px solid rgba(176, 176, 176, 0.20);
+}
+.button_style{
+    width: 110px;
+    height: 44px;
+    display: flex;
+padding: 18.5px 39px;
+align-items: flex-start;
+gap: 6px;
+    border-radius: 4px;
+background: rgba(42, 42, 42, 0.90);
+}
+.follow_button_style{
+    color: var(--White, #FFF);
+
+/* 12 semi */
+font-family: "Inter";
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.naver_style{
+    border-radius: 0px 0px 10px 10px;
+border: 1px solid var(--Border-v2, rgba(176, 176, 176, 0.15));
+background: var(--White-A, #F7F7F7);
+
+/* cart */
+box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10);
+display: inline-flex;
+padding: 38.313px 50px 37.688px 74px;
+justify-content: center;
+align-items: center;
+gap: 741px;
+}
