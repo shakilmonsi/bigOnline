@@ -1,0 +1,28 @@
+.sele_nav_name_style {
+  display: flex;
+  padding: 10px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 6px;
+  border-radius: 8px;
+  background: var(--Border-v2, rgba(176, 176, 176, 0.15));
+}
+.sele_input_style{
+    display: flex;
+width: 240px;
+padding: 10px 12px;
+justify-content: space-between;
+align-items: center;
+    border-radius: 6px;
+    border: 1.5px solid var(--Border, #B0B0B0);
+}
+.navber_title_style{
+    color: var(--Black, #2A2A2A);
+
+/* 14 reg */
+font-family: "Inter";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}

@@ -13,6 +13,7 @@ import ProductDitils from "../../ProdcutDitils/ProductDitils/ProductsDitilpage/P
 import FourProductTypeSectionAllComponent from "../../Pages/Shared/FourProductTypeSection/FourProductTypeSectionAllComponent";
 import ElectricCategorypage from "../../Pages/Category/ProductCategory/ElectricCategorypage";
 import Catagoryfivepage from "../../Pages/ProdcutCatagoryFivepage/Catagorys/CatagoryFiveallPage/Catagoryfivepage";
+import BusnessSellerPage from "../../Pages/BusinessSellerpage/BusnessSellerPage/BusnessSellerPage";
 
 export const routes = createBrowserRouter([
     {
@@ -61,6 +62,10 @@ export const routes = createBrowserRouter([
             {
                 path: '/productsCatagoryFiveAllcomponent',
                 element:<Catagoryfivepage></Catagoryfivepage>
+            },
+            {
+                path: '/busnessSellerPage',
+                element:<BusnessSellerPage></BusnessSellerPage>
             },
             {
                 path: '/test',

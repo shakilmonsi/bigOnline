@@ -5,3 +5,10 @@ grid-template-columns: repeat(4,1fr);
 
 
 }
+
+.line_style_serices{
+    width: 1px;
+height: 60px;
+
+    background: rgba(176, 176, 176, 0.40);
+}
