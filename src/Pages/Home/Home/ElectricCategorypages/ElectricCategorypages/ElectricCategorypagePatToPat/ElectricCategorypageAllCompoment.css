@@ -1,0 +1,10 @@
+.productTypeSEction_all_body_setup{
+    display: inline-flex;
+    padding: 20px 30px 0px 30px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 10px;
+    background: var(--White-A, #F7F7F7);
+
+}
