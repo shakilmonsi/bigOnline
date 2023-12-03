@@ -64,25 +64,25 @@ const DealsYouMighLike = () => {
                 },
 
         ]
-
+     
 
         return (
-                <div className='py-4' style={{backgroundColor:"#F5F7FB", }}>
+                <div className='py-4' style={{backgroundColor:"#F5F7FB"}}>
 
 
 
-                        <div className='d-flex  justify-content-between' style={{padding:"40px"}}>
+                        <div className='d-flex  justify-content-between' style={{padding:"60px" }}>
                                 <h4 style={{
-                                        color: "#000", fontSize: "22px", fontFamily: "inter",
+                                        color: "#000",marginLeft:90,   fontSize: "22px", fontFamily: "inter",
                                         fontWeight: 500, lineHeight: "normal"
                                 }}>Deals You Might Like</h4>
-                                <Link to="/" className='' style={{ color: "#000", fontFamily: "inter", fontSize: "18px", fontWeight: 500, fontStyle: "normal", lineHeight: "normal" }}>View All</Link>
+                                <Link to="/" className='' style={{marginLeft:-40, color: "#000", fontFamily: "inter", fontSize: "18px", fontWeight: 500, fontStyle: "normal", lineHeight: "normal" }}>View All</Link>
 
                         </div>
                         <div className='row ' >
 
 
-                                <div className="d-flex gap-3 flex-wrap" style={{marginLeft:"34px"}}>
+                                <div className="d-flex gap-3 flex-wrap" style={{marginLeft:140}}>
                                         {
                                                 servicesData.map(servic => <DeealsyouMighLikeWeklyOfferCard
                                                         key={servic.id}

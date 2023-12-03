@@ -72,7 +72,7 @@ const WeeklyOffer=()=> {
         return (
                 <div className='py-4' style={{backgroundColor:"#FAF9F6"}}>
                                   
-                                  <div className='d-flex  justify-content-between p-4'>
+                                  <div className='d-flex  justify-content-between mt-4 'style={{padding:"40px"}}>
         <h4 style={{
           color: "#000", fontSize: "22px", fontFamily: "inter",
           fontWeight: 500, lineHeight: "normal"
@@ -84,7 +84,7 @@ const WeeklyOffer=()=> {
       <div className='row mt-4'>
 
 
-<div  className='d-flex gap-3 flex-wrap 'style={{marginLeft:30}}>
+<div  className='d-flex gap-3 flex-wrap 'style={{marginLeft:50}}>
 {
         servicesData.map(servic => <WeeklyOfferCard
                 key={servic.id}

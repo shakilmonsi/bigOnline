@@ -78,7 +78,7 @@ const DealsYouMighLikeWeeklyOffers = () => {
         return (
 
                 <div className='d-flex gap-4' style={{marginTop:"47px"}}>
-                        <div>
+                        <div >
 
 
                                 <DealsYouMighLike></DealsYouMighLike>
