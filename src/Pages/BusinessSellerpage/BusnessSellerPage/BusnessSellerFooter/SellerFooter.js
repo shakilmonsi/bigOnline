@@ -8,7 +8,7 @@ const SellerFooter=()=>{
     return (
         <div className='seller_footer_style'>
 
-            <div className=' grit_style align-items-center mt-2' style={{paddingLeft:"50px",paddingRight:"50px"}}>
+            <div className=' grit_style align-items-center ' style={{paddingLeft:"50px",paddingRight:"50px"}}>
 
                 <div>
                     <h5 className='footer_title-style'>Get the best experience by downloading our mobileapp </h5>

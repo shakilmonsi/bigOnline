@@ -22,9 +22,9 @@ const BusinessSellerNavber=()=> {
 <span  className='navber_title_style'> Follower Count</span>
 <img src={arrowlogo} alt=''></img>
 </div>
-<div className='sele_nav_name_style'>
-<span  className='navber_title_style'>Verified Status</span>
-<img src={arrowlogo} alt=''></img>
+<div className='sele_nav_name_style_red'>
+<span  className='navber_title_style' style={{color:"#F85606"}}>Verified Status</span>
+<img style={{color:"#F85606"}} src={arrowlogo} alt=''></img>
 </div>
 <div className='sele_nav_name_style'>
 <span  className='navber_title_style'>Follow Status</span>

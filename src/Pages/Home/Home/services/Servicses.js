@@ -9,7 +9,7 @@ import unique from '../../../../assets/servicesimg/Unique.svg'
 const Servicses = () => {
         return (
                 <div className='row  py-4' style={{backgroundColor:"#FFFFFF",height:"143px",marginTop:"47px"}}>
-                        <div className='d-flex servises_grid_item ' style={{ gap: "120px",marginTop:40 }}>
+                        <div className='d-flex servises_grid_item ' style={{ gap: "120px", paddingLeft:"90px",paddingRight:"90px" }}>
 
                                 <div className='d-flex gap-2'>
                                         <img src={servicecar} alt='' style={{ color: "#FF5530", width: "57px", height: "28px", flexShrink: 0 }}></img>
@@ -17,7 +17,7 @@ const Servicses = () => {
                                                 <p style={{ fontSize: "14px", fontFamily: "inter", fontSizeAdjust: "normal", color: "#2A2A2AE5", fontWeight: 400, lineHeight: "normal" }}>Fastest worldwide shipping</p>
                                         </div>
                                 </div>
-                                <span className='line_style_serices mb-2'></span>
+                                <span className='line_style_serices'></span>
 
                                 <div className='d-flex gap-2'>
                                         <img src={worldwide} alt='' style={{ width: "37px", height: "40px", flexShrink: 0, color: "#FF5530" }}></img>

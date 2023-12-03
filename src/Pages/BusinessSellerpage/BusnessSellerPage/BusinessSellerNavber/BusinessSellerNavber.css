@@ -7,6 +7,16 @@
   border-radius: 8px;
   background: var(--Border-v2, rgba(176, 176, 176, 0.15));
 }
+.sele_nav_name_style_red {
+    display: flex;
+padding: 10px;
+justify-content: flex-end;
+align-items: center;
+gap: 4px;
+    border-radius: 8px;
+    border: 1.5px solid #F85606;
+    background: var(--BC-BG, #FAFAFA);
+}
 .sele_input_style{
     display: flex;
 width: 240px;

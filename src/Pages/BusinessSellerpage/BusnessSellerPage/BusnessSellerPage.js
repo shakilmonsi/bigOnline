@@ -5,6 +5,7 @@ import BusinessSellerNavber from './BusinessSellerNavber/BusinessSellerNavber';
 import SellerFooter from './BusnessSellerFooter/SellerFooter';
 import Servicses from '../../Home/Home/services/Servicses';
 import ExptorOurtopHomePromotor from '../../Home/Home/exploreOutopHomePromotor/ExptorOurtopHomePromotor';
+import Catagrytrowelproducts from '../../Home/Home/shercomponent/catagrytrowelproducts/Catagrytrowelproducts';
 const BusnessSellerPage=()=> {
     return (
 
@@ -13,6 +14,7 @@ const BusnessSellerPage=()=> {
      <img src={bannerfive}></img>
      </div>
      <BusinessSellerNavber></BusinessSellerNavber>
+     <Catagrytrowelproducts></Catagrytrowelproducts>
 
      <ExptorOurtopHomePromotor></ExptorOurtopHomePromotor>
      <SellerFooter></SellerFooter>
