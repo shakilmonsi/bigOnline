@@ -1,0 +1,66 @@
+.grir_cols_style_product {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.dashboard_right_card {
+
+  width: 260px;
+  padding: 30px 50px;
+  align-items: center;
+  gap: 40px;
+  border-radius: 10px;
+  border: 1.5px solid var(--Border-v2, rgba(176, 176, 176, 0.15));
+  background: rgba(241, 241, 241, 0.7);
+}
+.right_text_grap{
+    color: var(--Gray, #717171);
+
+    /* 14 semi */
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.number_style{
+    color: var(--Green, #20BD2F);
+
+    /* 24 semi */
+    font-family: "Inter";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.number_style_two_card{
+    color: var(--Bookmark, #F08200);
+
+    /* 24 semi */
+    font-family: "Inter";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.number_style_thrad_card{
+    color: var(--Blue, #5779D9);
+
+    /* 24 bold */
+    font-family: "Inter";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.number_style_fourth_card{
+  
+    color: var(--Black, #2A2A2A);
+
+    /* 24 bold */
+    font-family: "Inter";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}

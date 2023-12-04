@@ -12,7 +12,7 @@ const MyDashboard = () => {
         style={{ gap: "20px", paddingLeft: "160px", paddingRight: "20px" }}
       >
         <div className="">
-          <div className="admin_card_style " style={{marginLeft: 5}}>
+          <div className="admin_card_style  text-center" >
             <p className="grap_text_style">Wallet Balance</p>
 
             <h6 className="title_admin_style">SAR 6516521.00</h6>
@@ -20,7 +20,7 @@ const MyDashboard = () => {
         </div>
 
         <div className=" justify-content-center">
-          <div className="admin_card_style">
+          <div className="admin_card_style imtems-center">
             <p className="grap_text_style d-flex align-items-center gap-2">
               Available Points{" "}
               <span>
@@ -33,14 +33,14 @@ const MyDashboard = () => {
         </div>
 
         <div className="justify-content-center">
-          <div className="admin_card_style ">
+          <div className="admin_card_style  text-center">
             <p className="grap_text_style">Wallet Balance</p>
 
             <h6 className="title_admin_style">SAR 6516521.00</h6>
           </div>
         </div>
         <div className=" justify-content-center">
-          <div className="admin_card_style">
+          <div className="admin_card_style text-center">
             <p className="grap_text_style">Wallet Balance</p>
 
             <h6 className="title_admin_style">SAR 6516521.00</h6>
