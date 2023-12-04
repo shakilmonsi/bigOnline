@@ -41,7 +41,7 @@ import { Link } from 'react-router-dom';
 
     return (
        <div className=" shodow-none mx-auto mt-4" >
-  <div className="row g-4">
+  <div className="row  g-4">
     <div className="col-lg-7 ">
     <div className='d-flex  '>
     <div className='mx-auto'>

@@ -16,6 +16,7 @@ import Catagoryfivepage from "../../Pages/ProdcutCatagoryFivepage/Catagorys/Cata
 import BusnessSellerPage from "../../Pages/BusinessSellerpage/BusnessSellerPage/BusnessSellerPage";
 import ViewAllBusnesspage from "../../Pages/ViewAllBusnesspage/ViewAllBusnesspage/ViewAllBusnesspage";
 import ViewAllPageTwo from "../../Pages/ViewAllPageTwo/ViewAllPageTwo/ViewAllPageTwo";
+import DashboardLoayut from "../../layout/DashboardLoayut/DashboardLoayut/DashboardLoayut";
 
 export const routes = createBrowserRouter([
     {
@@ -77,13 +78,14 @@ export const routes = createBrowserRouter([
                 path: '/viewAllPageTwo',
                 element:<ViewAllPageTwo></ViewAllPageTwo>
             },
+            // dashboard  seting
             {
-                path: '/test',
-                element:<ElectricCategorypage></ElectricCategorypage>
+                path: '/myDashboard',
+                element:<DashboardLoayut></DashboardLoayut>
             },
-
 
 
         ]
     }
 ])
+

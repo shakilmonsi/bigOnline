@@ -1,0 +1,72 @@
+
+.admin_name_style{
+  
+    color: var(--Black, #2A2A2A);
+
+/* 20 med */
+font-family: "Inter";
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.line_style{
+    width: 1px;
+height: 14px;
+
+    background: rgba(176, 176, 176, 0.40);
+}
+.admin_profile{
+    margin: auto;
+    justify-content: center;
+    width: 64px;
+height: 64px;
+border-radius: 100px;
+border: 3px solid var(--verified-2, #FFCC3A);
+
+/* shadow */
+box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.20);
+}
+.admin_profile_img{
+    
+
+   
+    justify-content: center;
+    width: 84px;
+height: 84px;
+border-radius: 100px;
+
+;
+}
+
+.button_style_dashboard{
+    display: flex;
+padding: 14.5px 36px;
+align-items: flex-start;
+gap: 6px;
+    border-radius: 4px;
+    background: #F85606;
+}
+.admin_follow_button_style{
+    color: var(--White, #FFF);
+
+/* 12 semi */
+font-family: "Inter";
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.naver_style_admin{
+    border-radius: 0px 0px 10px 10px;
+border: 1px solid var(--Border-v2, rgba(176, 176, 176, 0.15));
+background: var(--White-A, #F7F7F7);
+
+/* cart */
+box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10);
+display: inline-flex;
+padding: 38.313px 50px 37.688px 74px;
+justify-content: center;
+align-items: center;
+gap: 741px;
+}

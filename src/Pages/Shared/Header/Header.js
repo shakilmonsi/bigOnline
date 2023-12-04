@@ -324,9 +324,8 @@ const Header = () => {
                 </Dropdown.Toggle>
 
                 <Dropdown.Menu>
-                  <Dropdown.Item href="/googol">my account</Dropdown.Item>
-                  <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-                  <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+                  <Dropdown.Item href="/myDashboard">myDashboard</Dropdown.Item>
+      
                 </Dropdown.Menu>
               </Dropdown>
 

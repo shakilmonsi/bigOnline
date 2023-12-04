@@ -41,7 +41,7 @@ const Footer = () => {
 
       }}>
 
-        <div className=" row  pading_option_setup "style={{ overflow:"hidden"}}  >
+        <div className="  pading_option_setup "style={{ overflow:"hidden"}}  >
           <div className=" grid_footer_item" style={{ overflow:"hidden"}} >
             {/* Company Information   link setupb  */}
             <div className='style_to_link_text' style={{ overflow:"hidden"}} >

@@ -1,0 +1,83 @@
+.grid_col_style {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+.admin_card_style {
+ 
+padding: 30px 50px;
+
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  border: 1.5px solid var(--Border-v2, rgba(176, 176, 176, 0.15));
+  background: rgba(241, 241, 241, 0.7);
+}
+.grap_text_style {
+  color: var(--Gray, #717171);
+
+  /* 14 semi */
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.title_admin_style {
+  color: rgba(42, 42, 42, 0.9);
+
+  /* 24 bold */
+  font-family: "Inter";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.paid_logo_style {
+  width: 16px;
+  height: 16px;
+  border-radius: 100000px;
+  border: 1px solid var(--verified-2, #ffcc3a);
+}
+.button_recharge{
+    display: flex;
+    border: none;
+width: 180px;
+padding: 20.5px 30px;
+justify-content: space-between;
+align-items: center;
+    border-radius: 6px;
+    background: #F85606;
+}
+.button_recharge_text{
+    color: var(--White, #FFF);
+
+/* 12 semi */
+font-family: "Inter";
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+
+.button_point{
+    border: none;
+    display: flex;
+width: 180px;
+padding: 20.5px 26px;
+justify-content: space-between;
+align-items: center;
+    border-radius: 6px;
+    border: 1.5px solid var(--Gray, #717171);
+    background: var(--BC-BG, #FAFAFA);
+}
+.button_point_text{
+    color: rgba(42, 42, 42, 0.90);
+
+    /* 12 semi */
+    font-family: "Inter";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
