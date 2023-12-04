@@ -81,7 +81,7 @@ const WeeklyOffer=()=> {
 
       </div>
 
-      <div className='row mt-4'>
+      <div className=' mt-4'>
 
 
 <div  className='d-flex gap-3 flex-wrap 'style={{marginLeft:50}}>

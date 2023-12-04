@@ -1,28 +1,28 @@
-import React from "react";
-import  "./ExploreOuropBusinessSellers.css"
+import React from 'react';
+
+import "./youMightal.css"
+
+import ammazzon1 from "../../../../assets/ExploreOurTopBusinessSeller/ammazzon1.jpg";
+import google from "../../../../assets/ExploreOurTopBusinessSeller/google2.jpg";
+import ebay from "../../../../assets/ExploreOurTopBusinessSeller/ebay3.jpg";
+import allibaba from "../../../../assets/ExploreOurTopBusinessSeller/allibaba4.jpg";
+import nokia from "../../../../assets/ExploreOurTopBusinessSeller/nokia5.jpg";
+import none from "../../../../assets/ExploreOurTopBusinessSeller/noon6.jpg";
+import apple from "../../../../assets/ExploreOurTopBusinessSeller/apple7.jpg";
+import daraz from "../../../../assets/ExploreOurTopBusinessSeller/daraz8.jpg";
+import addidas from "../../../../assets/ExploreOurTopBusinessSeller/addidas9.jpg";
 
 
-import ammazzon1 from "../../../../../assets/ExploreOurTopBusinessSeller/ammazzon1.jpg";
-import google from "../../../../../assets/ExploreOurTopBusinessSeller/google2.jpg";
-import ebay from "../../../../../assets/ExploreOurTopBusinessSeller/ebay3.jpg";
-import allibaba from "../../../../../assets/ExploreOurTopBusinessSeller/allibaba4.jpg";
-import nokia from "../../../../../assets/ExploreOurTopBusinessSeller/nokia5.jpg";
-import none from "../../../../../assets/ExploreOurTopBusinessSeller/noon6.jpg";
-import apple from "../../../../../assets/ExploreOurTopBusinessSeller/apple7.jpg";
-import daraz from "../../../../../assets/ExploreOurTopBusinessSeller/daraz8.jpg";
-import addidas from "../../../../../assets/ExploreOurTopBusinessSeller/addidas9.jpg";
-
-
-import usericon from "../../../../../assets/usersicon/user.svg"
-import starretting from "../../../../../assets/iconreting/rating.svg";
-import withcolorretting from "../../../../../assets/iconreting/withcolerrating.svg";
-import staverifiedlogo from "../../../../../assets/companyVairpideIcon/verified.svg"
-import vector from "../../../../../assets/vector/Vector.svg"
+import usericon from "../../../../assets/usersicon/user.svg"
+import starretting from "../../../../assets/iconreting/rating.svg";
+import withcolorretting from "../../../../assets/iconreting/withcolerrating.svg";
+import staverifiedlogo from "../../../../assets/companyVairpideIcon/verified.svg"
+import vector from "../../../../assets/vector/Vector.svg"
 import { Link } from 'react-router-dom';
-import ExploreOuropBusinessSeller from "../ExploreOuropBusinesSeller/ExploreOuropBusinessSeller";
+import YouMightCard from '../YouMightalsobeinterestedinCard/YouMightCard';
 
 
-const ExploreOuropBusinessSellers = () => {
+const YouMightalsobeinterestedin = () => {
 
         const exploreOuropBusinessSellersData = [
                 {
@@ -139,20 +139,20 @@ const ExploreOuropBusinessSellers = () => {
                                 <h4 style={{
                                         color: "#000", fontSize: "22px", fontFamily: "inter",
                                         fontWeight: 500, lineHeight: "normal"
-                                }}>Explore Our Top Business Seller</h4>
+                                }}>You Might also be interested in</h4>
                                 <Link to="/" className='' style={{ color: "#000", fontFamily: "inter", fontSize: "18px", fontWeight: 500, fontStyle: "normal", lineHeight: "normal" }}>View All</Link>
 
                         </div>
 
                         <div className=' mt-3'>
-                                <div className='explore_Our_Top_Business_Seller_grid_setup ms-2  gap-4'>
+                                <div className='might_Seller_grid_setup_five_page ms-2  gap-4'>
                                         {
                                                 exploreOuropBusinessSellersData?.map(exploreOuropBusinessSeller =>
-                                                         <ExploreOuropBusinessSeller
+                                                         <YouMightCard
                                                         key={exploreOuropBusinessSeller.id} 
                                                         exploreOuropBusinessSeller={exploreOuropBusinessSeller}>
 
-                                                        </ExploreOuropBusinessSeller>)
+                                                        </YouMightCard>)
 
                                         }
 
@@ -164,4 +164,9 @@ const ExploreOuropBusinessSellers = () => {
         );
 }
 
-export default ExploreOuropBusinessSellers;
+
+
+
+
+
+export default YouMightalsobeinterestedin;

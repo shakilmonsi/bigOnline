@@ -79,7 +79,7 @@ const DealsYouMighLike = () => {
                                 <Link to="/" className='' style={{marginLeft:-40, color: "#000", fontFamily: "inter", fontSize: "18px", fontWeight: 500, fontStyle: "normal", lineHeight: "normal" }}>View All</Link>
 
                         </div>
-                        <div className='row ' >
+                        <div className='' >
 
 
                                 <div className="d-flex gap-3 flex-wrap" style={{marginLeft:140}}>

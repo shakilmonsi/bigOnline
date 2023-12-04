@@ -147,7 +147,7 @@ const TopDealsOfTheWeeks = () => {
 
             </div>
 
-            <div className='row'>
+            <div className=''>
 
                 <div className='grid_TopDealsOfTheWeeks_item px-4 ms-4'>
 

@@ -34,17 +34,17 @@ import arrowdown from "../../../assets/footerAll_icon/copyRightIcon/arrow down f
 import { Link } from 'react-router-dom';
 const Footer = () => {
   return (
-    <div className='mt-3' style={{ marginLeft: 0 }}>
+    <div className='mt-3' style={{ overflow:"hidden"}} >
 
-      <footer className="footer  " style={{
+      <footer className="footer  " style={{ overflow:"hidden",
         backgroundColor: "#EA4D00"
 
       }}>
 
-        <div className=" row  pading_option_setup " >
-          <div className=" grid_footer_item">
+        <div className=" row  pading_option_setup "style={{ overflow:"hidden"}}  >
+          <div className=" grid_footer_item" style={{ overflow:"hidden"}} >
             {/* Company Information   link setupb  */}
-            <div className='style_to_link_text'>
+            <div className='style_to_link_text' style={{ overflow:"hidden"}} >
 
               <ul>
                 <h6 className='footer_title_text_style'>Company Information</h6>

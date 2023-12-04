@@ -143,7 +143,7 @@ const NewArrivals = () => {
 
                         </div>
 
-                        <div className='row mt-3'>
+                        <div className=' mt-3'>
 
 <div className='grid_NewArrivals_item ms-2'>
  

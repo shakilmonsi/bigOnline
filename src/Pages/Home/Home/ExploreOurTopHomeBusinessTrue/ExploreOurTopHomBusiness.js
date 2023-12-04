@@ -142,7 +142,7 @@ const ExploreOurTopHomBusiness = () => {
 
       </div>
 
-      <div className='row mt-3 py-4'>
+      <div className=' mt-3 py-4'>
         <div className=' grid_colams_promoter_cards  ms-2  gap-4'>
           {
             exploreOurTopHomBusinesData?.map(topHomBusinesdata => <ExploreOurTopHomBusinescard key={topHomBusinesdata.id} topHomBusinesdata={topHomBusinesdata}></ExploreOurTopHomBusinescard>)

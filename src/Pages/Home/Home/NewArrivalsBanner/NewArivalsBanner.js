@@ -32,7 +32,7 @@ const NewArivalsBanner=()=> {
         return (
             <section className='mt-4'>
             
-                                                <div className="row">
+                                                <div className="">
                                                         <div className="d-flex gap-5">
                                                                 {
                                                                         bannerData?.map(banner => <div key={banner.id} className={`${banner.bgClass}`} style={{ borderRadius: "10px", height: "400px", width: "847px" }}>

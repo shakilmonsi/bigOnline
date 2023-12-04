@@ -96,8 +96,8 @@ const Catagrytrowelproducts = () => {
 
 
         return (
-                <div className='row pading_full_display' style={{ backgroundColor: "#FFFFFF" ,marginTop:"47px"}}>
-                        <div className='   mt-4 catagoraytowel_product' style={{ gap: "50px" }}>
+                <section className=' pading_full_display' style={{ backgroundColor: "#FFFFFF" ,marginTop:"47px",overflow:'hidden'}}>
+                        <div className='   mt-4 catagoraytowel_product' style={{ gap: "30px" ,overflow:"hidden"}}>
 
                                 {
                                         catagrytrowelproducts?.map(catagrytrowelproduct => <div className='' key={catagrytrowelproduct.id}>
@@ -114,7 +114,7 @@ const Catagrytrowelproducts = () => {
                         </div>
 
 
-                </div>
+                </section>
         );
 }
 

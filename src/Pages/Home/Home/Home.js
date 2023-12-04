@@ -43,8 +43,8 @@ const Home = () => {
        <NewArrivals></NewArrivals>
               <Trustedsmss></Trustedsmss>
      
-       {/* <ExploreOurTopHomBusiness></ExploreOurTopHomBusiness> */}
-       {/* <ExploreOurTopHomBusiness></ExploreOurTopHomBusiness> */}
+       <ExploreOurTopHomBusiness></ExploreOurTopHomBusiness>
+       <ExploreOurTopHomBusiness></ExploreOurTopHomBusiness>
        <RecommendedForYous></RecommendedForYous>
      
 

@@ -94,7 +94,7 @@ const SpecialSaleOffers = () => {
                         <Row className='mt-3'>
                                 <Col lg="6">
                                         <div className=''>
-                                                <div className="row">
+                                                <div className="">
                                                         <div className="d-flex gap-2">
                                                                 {
                                                                         bannerData?.map(banner => <div key={banner.id} className="" style={{ borderRadius: "10px", backgroundColor: "#A8B696", height: "400px", width: "847px" }}>

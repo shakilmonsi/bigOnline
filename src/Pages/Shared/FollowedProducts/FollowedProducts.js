@@ -138,7 +138,7 @@ const FollowedProducts = () => {
 
                         </div>
 
-                        <div className='row' style={{paddingRight:"25px",paddingLeft:"25px"}}>
+                        <div className='' style={{paddingRight:"25px",paddingLeft:"25px"}}>
 
 <div className='grid_followedProduct_item ms-4'>
  

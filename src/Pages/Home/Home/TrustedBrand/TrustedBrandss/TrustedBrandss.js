@@ -63,7 +63,7 @@ const Trustedsmss = () => {
 
                         </div>
 
-                        <div className='row mt-4 '>
+                        <div className=' mt-4 '>
                                 <div className='grit_trusd_item'>
 
 

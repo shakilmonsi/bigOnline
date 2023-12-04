@@ -15,8 +15,8 @@ const ElectricCategorypage=()=> {
        <DelProduct></DelProduct>
        
 
-<div className='row gap-4' style={{marginTop:"47px"}}>
-    <div className='col-lg-3   productTypeSEction_all_body_setup'style={{padding:60}}>
+<div className='row d-flex gap-4' style={{marginTop:"47px", overflow:"hidden"}} >
+    <div className='col-lg-3   productTypeSEction_all_body_setup'style={{padding:60,overflow:"hidden"}}>
 <RightSitesection></RightSitesection>
         
     </div>

@@ -72,8 +72,9 @@ const TrendingDealsInElectronics = () => {
                
                         <div className=' trending_dealsin_electronices' style={{ backgroundColor: "#F5F7FB" }}>
                                 <div className='d-flex justify-content-between'>
-                                        <h4 style={{ color: "#000", fontSize: "22px", fontFamily: "inter", fontWeight: 500, lineHeight: "normal" }}>Trending Deals In Electronics</h4>
-                                        <Link to="/" className='' style={{ color: "#000", fontFamily: "inter", fontSize: "18px", fontWeight: 500, fontStyle: "normal", lineHeight: "normal" }}>View All</Link>
+                                        <h4 style={{ paddingRight:-339 ,color: "#000", fontSize: "22px", fontFamily: "inter", fontWeight: 500, lineHeight: "normal" }}>Trending Deals In Electronics</h4>
+                                        <Link to="/" className='' style={{ color: "#000", fontFamily: "inter", fontSize:  
+                                        "18px", fontWeight: 500, fontStyle: "normal", lineHeight: "normal",paddingRight:-339 }}>View All</Link>
 
                                 </div>
 

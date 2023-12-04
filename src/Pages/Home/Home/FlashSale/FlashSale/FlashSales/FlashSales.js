@@ -179,7 +179,7 @@ const FlashSales = () => {
 
 
                         </div>
-                        <div className='row mt-4'>
+                        <div className=' mt-4'>
                         <div className=' grid_flashsalesData_grid_setup ms-4 gap-4 '>
                         {
         flashsalesData.map(servic => <FlashsaleCard

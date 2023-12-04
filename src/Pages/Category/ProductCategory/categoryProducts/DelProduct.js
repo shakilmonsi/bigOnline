@@ -84,7 +84,7 @@ const DelProduct = () => {
                                 </div>
 
 
-                               <div className='row'>
+                               <div className=''>
                                 <div  className='gap-3 
                                   TrendingDealsInElectronic_product_grid_setup'>
                                 {

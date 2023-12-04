@@ -10,16 +10,16 @@ const Heros = () => {
   return (
     <div className='mt-4 background_img_setup_in_style' style={containerStyle}>
 
-      <div
+      <div style={{overflow:"hidden"}}
         id="carouselExampleControls"
         className="carousel slide "
         data-ride="carousel"
       >
         <div
-          style={{ backgroundColor: "" }}
+          style={{ backgroundColor: "",overflow:"hidden" }}
         >
 
-          <div className="carousel-inner">
+          <div className="carousel-inner" style={{overflow:"hidden"}}> 
             <div className="carousel-item active">
               <div className="row align-items-center " style={{ padding: 40 }}>
                 <div className="col-md-6">

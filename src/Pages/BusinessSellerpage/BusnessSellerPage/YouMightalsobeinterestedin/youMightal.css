@@ -1,0 +1,4 @@
+.might_Seller_grid_setup_five_page{
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
+}

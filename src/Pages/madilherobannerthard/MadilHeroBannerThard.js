@@ -44,7 +44,7 @@ const MadilHeroBannerThard = () => {
 
         return (
                 <div className='madilbanner_thrad' style={{marginTop:"47px"}}>
-                        <div className="row">
+                        <div className="">
                                 <div className="d-flex   ">
                                         {
                                                 bannerData?.map(banner => <div key={banner.id} className={`hero_banner_setup mx-auto 

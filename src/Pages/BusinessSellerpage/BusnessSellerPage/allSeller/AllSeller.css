@@ -1,0 +1,6 @@
+.grid_colams_all_seller_cards{
+display: grid;
+grid-template-columns: repeat(9,1fr);
+grid-row-gap: 25px;
+grid-column-gap: 5px;
+}
