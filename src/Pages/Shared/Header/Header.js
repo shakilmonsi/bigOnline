@@ -204,6 +204,7 @@ const Header = () => {
                   <Dropdown.Item href="/test">test</Dropdown.Item>
                   <Dropdown.Item href="/busnessSellerPage">busnessSellerPage</Dropdown.Item>
                   <Dropdown.Item href="/viewAllBusnesspage">iewAllBusnesspage</Dropdown.Item>
+                  <Dropdown.Item href="/viewAllPageTwo">viewAllPageTwo</Dropdown.Item>
                 </Dropdown.Menu>
               </Dropdown>
               <div>

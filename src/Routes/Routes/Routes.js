@@ -15,6 +15,7 @@ import ElectricCategorypage from "../../Pages/Category/ProductCategory/ElectricC
 import Catagoryfivepage from "../../Pages/ProdcutCatagoryFivepage/Catagorys/CatagoryFiveallPage/Catagoryfivepage";
 import BusnessSellerPage from "../../Pages/BusinessSellerpage/BusnessSellerPage/BusnessSellerPage";
 import ViewAllBusnesspage from "../../Pages/ViewAllBusnesspage/ViewAllBusnesspage/ViewAllBusnesspage";
+import ViewAllPageTwo from "../../Pages/ViewAllPageTwo/ViewAllPageTwo/ViewAllPageTwo";
 
 export const routes = createBrowserRouter([
     {
@@ -71,6 +72,10 @@ export const routes = createBrowserRouter([
             {
                 path: '/viewAllBusnesspage',
                 element:<ViewAllBusnesspage></ViewAllBusnesspage>
+            },
+            {
+                path: '/viewAllPageTwo',
+                element:<ViewAllPageTwo></ViewAllPageTwo>
             },
             {
                 path: '/test',
