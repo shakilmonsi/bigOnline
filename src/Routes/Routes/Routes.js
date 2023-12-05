@@ -17,6 +17,7 @@ import BusnessSellerPage from "../../Pages/BusinessSellerpage/BusnessSellerPage/
 import ViewAllBusnesspage from "../../Pages/ViewAllBusnesspage/ViewAllBusnesspage/ViewAllBusnesspage";
 import ViewAllPageTwo from "../../Pages/ViewAllPageTwo/ViewAllPageTwo/ViewAllPageTwo";
 import DashboardLoayut from "../../layout/DashboardLoayut/DashboardLoayut/DashboardLoayut";
+import MyOrders from "../../Pages/Dashboard/MyOrders/MyOrders/MyOrders";
 
 export const routes = createBrowserRouter([
     {
@@ -82,6 +83,10 @@ export const routes = createBrowserRouter([
             {
                 path: '/myDashboard',
                 element:<DashboardLoayut></DashboardLoayut>
+            },
+            {
+                path: '/myOrders',
+                element:<MyOrders></MyOrders>
             },
 
 
