@@ -81,3 +81,10 @@ align-items: center;
     font-weight: 600;
     line-height: normal;
 }
+.cridit_input_style{
+  width: 20px !important;
+height: 56px;
+flex-shrink: 0;
+  border-radius: 6px;
+border: 1.5px solid rgba(176, 176, 176, 0.30);
+}

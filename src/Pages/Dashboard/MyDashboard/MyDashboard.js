@@ -8,8 +8,8 @@ const MyDashboard = () => {
       <h3 className="text-center">My Dashboard</h3>
 
       <div
-        className="grid_col_style"
-        style={{ gap: "20px", paddingLeft: "160px", paddingRight: "20px" }}
+        className="grid_col_style mt-4"
+        style={{ gap: "20px", paddingRight: "20px" }}
       >
         <div className="">
           <div className="admin_card_style  text-center" >
@@ -58,6 +58,7 @@ const MyDashboard = () => {
           </div>
         </div>
       </div>
+      
     </div>
   );
 };

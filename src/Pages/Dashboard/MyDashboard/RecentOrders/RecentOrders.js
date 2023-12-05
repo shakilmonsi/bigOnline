@@ -16,9 +16,9 @@ import modul from "../../../../assets/myDashboard/modul.svg";
 const RecentOrders = () => {
   return (
     <div className="" style={{ marginTop: "40px" }}>
-      <div className="row " style={{ gap: "100px" }}>
-        <div className="col-lg-4" style={{ paddingLeft: "160px" }}>
-          <div className=" gap-4  grid_section_one">
+      <div className="row " style={{ gap: "60px" }}>
+        <div className="col-lg-4" style={{ paddingLeft: "15px" }}>
+          <div className="   grid_section_one" style={{gap:"43px"}}>
             <div className="">
               <div className="dashboard_right_card text-center mt-2">
                 <p className="right_text_grap">Products You Ordered</p>
@@ -60,36 +60,77 @@ const RecentOrders = () => {
               </div>
               {/* card two  */}
 
-              {/* <div>
-<div className="style_section_two" >
-<div> 
-<p className="default_payment">Default Payment</p>
-<div className="d-flex align-items-center gap-2">
-<img style={{width:"20px",height:"20px"}} src={cieditcard} alt=""></img>
-<span className="credit_title">Credit or debit card</span>
+              <div>
+                <div className="style_section_two">
+                  <div>
+                    <p className="default_payment">Default Payment</p>
+                    <div className="d-flex align-items-center gap-2">
+                      <img
+                        style={{ width: "20px", height: "20px" }}
+                        src=""
+                        alt=""
+                      ></img>
+                      <span className="credit_title">Credit or debit card</span>
 
-<button className="but_default_style"><span className="defuald_text">Default</span></button>  
-</div>
+                      <button className="but_default_style">
+                        <span className="defuald_text">Default</span>
+                      </button>
+                    </div>
+                  </div>
+                  {/* ///// card 33  */}
+                  <div className="mt-4">
+                    <input
+                      type="text"
+                      className="input_style"
+                      placeholder="654314968742"
+                      class="form-control"
+                    />
+                    <h6
+                      style={{
+                        marginTop: -48,
 
-</div>
+                        marginLeft: 33,
 
-<div class="indicator">
-<span class="indicator-item badge badge-primary">Required</span>
-<input type="text" placeholder="Your email address" class="form-control" />
-</div>
+                        flexShrink: 0,
+                      }}
+                      className="position-absolute card_input_name_style"
+                      alt="..."
+                    >
+                      Card number{" "}
+                    </h6>
+                  </div>
 
+                  {/* card ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, style  */}
+                  <div>
+                    <div className="mt-4" >
+                      <input
+                      style={{width:"120px"}}
+                        type="text"
+                        className=" cridit_input_style"
+                        placeholder="231"
+                        class="form-control"
+                      />
+                      <h6
+                        style={{
+                          marginTop: -48,
 
+                          marginLeft: 33,
 
-</div>
-</div>
-*/}
+                          flexShrink: 0,
+                        }}
+                        className="position-absolute card_input_name_style"
+                        alt="..."
+                      >
+                        CVC/CVV{" "}
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
               {/* ///    Get More Done Together With US section setup  */}
 
-              <div
-                className="get_more_done_dashboard_style"
-                style={{ margin: "50px" }}
-              >
+              <div className="get_more_done_dashboard_style">
                 <div
                   className="p-4"
                   style={{ marginLeft: 14, marginTop: 30, padding: "10px" }}
@@ -104,8 +145,8 @@ const RecentOrders = () => {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   </p>
                   <button
-                    className="button_style_get-dashboard mt-3"
-                    style={{ marginLeft: 59 }}
+                    className="button_style_get-dashboard mt-2"
+                    style={{ marginLeft: 89 }}
                   >
                     <span className="button_dashboard_style">Get Started</span>
                   </button>
@@ -332,7 +373,7 @@ const RecentOrders = () => {
                         </div>
                       </div>
                       <div>
-                        <span className="text-center time_style">45 mins</span>
+                        <span className="text-center time_style">2 hours</span>
                       </div>
                     </div>
                   </div>
@@ -365,7 +406,7 @@ const RecentOrders = () => {
                         </div>
                       </div>
                       <div>
-                        <span className="text-center time_style">45 mins</span>
+                        <span className="text-center time_style">6 days</span>
                       </div>
                     </div>
                   </div>
@@ -407,7 +448,7 @@ const RecentOrders = () => {
                         </div>
                       </div>
                       <div>
-                        <span className="text-center time_style">45 mins</span>
+                        <span className="text-center time_style">3 weeks</span>
                       </div>
                     </div>
                   </div>
@@ -462,7 +503,7 @@ const RecentOrders = () => {
                         </div>
                       </div>
                       <div>
-                        <span className="text-center time_style">45 mins</span>
+                        <span className="text-center time_style">1 month</span>
                       </div>
                     </div>
                   </div>

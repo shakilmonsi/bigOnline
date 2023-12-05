@@ -104,9 +104,11 @@ font-style: normal;
 font-weight: 600;
 line-height: normal;
 }
-
+  /* card 3 ............... */
 .style_section_two{
- 
+  margin-top: 10px;
+width: 380px ;
+height: 302px;
 padding: 30px 40px;
 justify-content: center;
 align-items: center;
@@ -114,6 +116,13 @@ gap: 40px;
   border-radius: 10px;
 border: 2px solid var(--Border-v2, rgba(176, 176, 176, 0.15));
 background: var(--BC-BG, #FAFAFA);
+}
+.input_style{
+  width: 300px;
+height: 56px;
+flex-shrink: 0;
+  border-radius: 6px;
+border: 1.5px solid rgba(176, 176, 176, 0.30);
 }
 .credit_title{
   color: var(--Black, #2A2A2A);
@@ -155,11 +164,11 @@ line-height: normal;
  /* card 3  */
 
  .get_more_done_dashboard_style{
-  width: 317px;
-height: 300px;
-flex-shrink: 0;
-border-radius: 10px;
-background: #EA4D00;
+  width: 380px;
+  height: 280px;
+  flex-shrink: 0;
+  border-radius: 10px;
+background: #F85606;
 }
 
 
@@ -339,4 +348,21 @@ line-height: normal;
   padding: 23.574px 35px 24.426px 3px;
   justify-content: center;
   align-items: center;
+}
+.card_input_name_style{
+  color: rgba(42, 42, 42, 0.90);
+
+/* 12 med */
+font-family: "Inter";
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.cridit_input_style{
+  width: 120px;
+height: 56px;
+flex-shrink: 0;
+  border-radius: 6px;
+border: 1.5px solid rgba(176, 176, 176, 0.30);
 }
