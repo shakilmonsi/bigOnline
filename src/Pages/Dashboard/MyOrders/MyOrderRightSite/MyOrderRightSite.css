@@ -1,0 +1,165 @@
+.order_navber_style {
+  display: flex;
+  width: 1000px;
+  padding: 15px 30px 15px 50px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px 8px 0px 0px;
+  border: 1px solid var(--Border-v2, rgba(176, 176, 176, 0.15));
+  background: rgba(176, 176, 176, 0.25);
+}
+.id_number_order {
+  color: var(--Black, #2a2a2a);
+
+  /* 14 semi */
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.id_my_order {
+  color: var(--Gray, #717171);
+
+  /* 14 med */
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.item_number {
+  color: var(--Gray, #717171);
+  text-align: center;
+
+  /* 14 med */
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.promotor_name {
+  color: rgba(42, 42, 42, 0.9);
+
+  /* 14 med */
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.mromoted_by {
+  color: var(--Gray, #717171);
+
+  /* 14 med */
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.track_order_text {
+  color: var(--White, #fff);
+  text-align: center;
+
+  /* 12 semi */
+  font-family: "Inter";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.track_order_button {
+  border: none;
+  display: flex;
+  padding: 12px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 4px;
+  background: #f85606;
+}
+.iphone_name_style {
+  color: rgba(42, 42, 42, 0.9);
+
+  /* 14 semi */
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.del_price_order {
+  color: var(--Gray, #717171);
+
+  /* 12 med */
+  font-family: "Inter";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.main_price {
+  color: rgba(42, 42, 42, 0.9);
+
+  /* 12 semi */
+  font-family: "Inter";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.bleck_text-order {
+  color: rgba(42, 42, 42, 0.9);
+
+  /* 12 med */
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.color_text_style {
+  color: var(--Gray, #717171);
+
+  /* 12 med */
+  font-family: "Inter";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+/* ..........................................     */
+.card_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+.ddddddddddddddddd {
+  display: flex;
+  max-width: 900px;
+  padding-bottom: 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+/* ......................  */
+
+.delevired_style{
+    color: rgba(42, 42, 42, 0.90);
+
+/* 14 semi */
+font-family: "Inter";
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.myorder_line_style {
+    width: 12px;
+height: 1px;
+margin-top: 4px;
+    background: rgba(42, 42, 42, 0.90);
+}
