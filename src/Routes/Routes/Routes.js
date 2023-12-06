@@ -58,39 +58,45 @@ export const routes = createBrowserRouter([
             //     path: '/electricCategorypage',
             //     element:<ElectricCategorypageAllCompomentandpattopat></ElectricCategorypageAllCompomentandpattopat>
             // },
-
+//page 3
          
             {
                 path: '/electricCategorypage',
                 element:<ElectricCategorypage></ElectricCategorypage>
             },
-
+//page 4
          
             {
                 path: '/fourProductTypeSection',
                 element:<FourProductTypeSectionAllComponent></FourProductTypeSectionAllComponent>
             },
+            //page 5
             {
                 path: '/productsCatagoryFiveAllcomponent',
                 element:<Catagoryfivepage></Catagoryfivepage>
             },
+            //page 6
             {
                 path: '/busnessSellerPage',
                 element:<BusnessSellerPage></BusnessSellerPage>
             },
+            // page 7
             {
                 path: '/viewAllBusnesspage',
                 element:<ViewAllBusnesspage></ViewAllBusnesspage>
             },
+            //page 8
             {
                 path: '/viewAllPageTwo',
                 element:<ViewAllPageTwo></ViewAllPageTwo>
             },
             // dashboard  seting
+            // page 9
             {
                 path: '/myDashboard',
                 element:<DashboardLoayut></DashboardLoayut>
             },
+            //page 10
             {
                 path: '/myOrders',
                 element:<MyOrders></MyOrders>

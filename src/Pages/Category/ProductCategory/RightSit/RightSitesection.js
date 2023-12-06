@@ -21,7 +21,7 @@ import green from "../../../../assets/ElectricCategorypageAllCompomentLogo/green
 
 const RightSitesection = () => {
     return (
-        <div className="row" >
+        <div className="rightSite_body-setup" >
 
 
   

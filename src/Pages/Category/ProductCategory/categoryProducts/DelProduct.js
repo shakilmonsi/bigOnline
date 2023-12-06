@@ -1,5 +1,5 @@
 import React from 'react';
-
+import "./DelProduct.css"
 import shos1 from "../../../../assets/TrendingDealsInElectronicsProductDitailsproduct/shos1.png";
 import watch2 from "../../../../assets/TrendingDealsinElectronics/watch2.png";
 import bag3 from "../../../../assets/TrendingDealsinElectronics/bag3.png";
@@ -7,8 +7,10 @@ import mobile from "../../../../assets/TrendingDealsinElectronics/mobile-4.png";
 import watch from "../../../../assets/TrendingDealsinElectronics/watch-5.png";
 import shos6 from "../../../../assets/TrendingDealsinElectronics/shos6.png";
 
+import arrowdown from "../../../../assets/catagoryPagethre/logo/arrow down fill (2).svg";
+import arrowup  from "../../../../assets/catagoryPagethre/logo/arrow up fill.svg";
+
 import DelproductCard from '../DelproductCard/DelproductCard';
-import { Link } from 'react-router-dom';
 
 
 const DelProduct = () => {
@@ -72,19 +74,24 @@ const DelProduct = () => {
         return (
                
                         <div className=' trending_dealsin_electronices' style={{ backgroundColor: "#F5F7FB" }}>
-                                <div className='d-flex justify-content-between'>
+                              <div  style={{paddingLeft:"60px", paddingRight:"28px"}}>
+                              <div className='d-flex justify-content-between'>
                                      
                                      <div>
                                      <h4 style={{ color: "#000", fontSize: "22px", fontFamily: "inter", fontWeight: 500, lineHeight: "normal" }}>Electric Category</h4>
 
                                      </div>
                                      
-                                        <Link to="/" className='' style={{ color: "#000", fontFamily: "inter", fontSize: "18px", fontWeight: 500, fontStyle: "normal", lineHeight: "normal" }}>View All</Link>
+                                        <div style={{paddingRight:"44px"}}>
+                                        <img className='arrowup_arroedun_style' src={arrowdown} alt=''></img>
+
+                                                <img className='arrowup_arroedun_style' src={arrowup} alt=''></img>
+                                        </div>
 
                                 </div>
 
 
-                               <div className=''>
+                               <div className=' mt-4'>
                                 <div  className='gap-3 
                                   TrendingDealsInElectronic_product_grid_setup'>
                                 {
@@ -97,6 +104,8 @@ const DelProduct = () => {
 
                                 </div>
                                </div>
+
+                              </div>
 
                                 
                         </div>

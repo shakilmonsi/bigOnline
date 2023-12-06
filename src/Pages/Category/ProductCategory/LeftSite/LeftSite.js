@@ -12,7 +12,7 @@ import CatagoryProducts from '../CatagoryProducts/CatagoryProducts';
 // import RightSiteProductsDispaly from './RightSiteProductDispalyall/RightSiteProductsDispaly';
 const LeftSite = () => {
     return (
-        <section>
+        <section className='legsite_body_setup'>
             <div>
                  {/* main dib up  */}
                  <nav className="navbar navbar-expand-lg bg-body-tertiary" style={{marginTop:"36.5px"}}>
@@ -24,7 +24,7 @@ const LeftSite = () => {
    
     <div className="" id="">
 
-      <form className="d-flex gap-4" >
+      <form className="d-flex gap-2" >
 
 
 
@@ -65,7 +65,7 @@ const LeftSite = () => {
 
 
 <div className='row'>
-    <div className='decond_header_dropdown_section_setup gap-3' style={{marginTop:"24px"}}>
+    <div className='decond_header_dropdown_section_setup gap-2' style={{marginTop:"24px"}}>
    
        {/* 111  */}
        <div className="body_and_dropdown_pat " style={{ width:"auto",height:"35px",textDecoration:"none"}}>
@@ -218,7 +218,7 @@ const LeftSite = () => {
        {/* 9  */}
        <div className="body_and_dropdown_pat " style={{ width:"auto",height:"35px",textDecoration:"none"}}>
            
-       <div className='gap-4'>
+       <div className='gap-2 d-flex'>
 <img className='' style={{color:"#2A2A2A"}} src={black} alt=''></img>
     <span className='in_stock_style'>  Black </span>
     
@@ -233,24 +233,14 @@ const LeftSite = () => {
            
        <img className='' style={{color:"#2A2A2ACC",width:"14px",height:"14px"}} src={rightarrowlogo} alt=''></img>
 
-      
-
          </div>
          {/* 10 */}
-
-
-
 
     </div>
 
 
 
 </div>
-
-
-
-
-
 
 
 

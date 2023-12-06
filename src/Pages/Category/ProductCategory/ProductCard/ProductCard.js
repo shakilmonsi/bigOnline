@@ -21,9 +21,9 @@ const ProductCard  = ({ rgihtsiteproductdata }) => {
                 <div className="mx-auto " style={{ width: "250px", height: "198px", 
                 borderRadius: "10px 10px 10px 10px", flexShrink: 0, background: "#F4F4F4" }}>
                   <img
-                    style={{ width: "auto", height: "auto", marginLeft: "45px" }}
+                    style={{ width: "auto", height: "auto", marginLeft: "32px" }}
                     src={img}
-                    className="mt-4  "
+                    className="mt-4 "
                     alt="..."
                   />
                   <p

@@ -1,0 +1,6 @@
+.arrowup_arroedun_style{
+    width: 18px;
+height: 18px;
+/* transform: rotate(-220deg); */
+flex-shrink: 0;
+}
