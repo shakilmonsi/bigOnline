@@ -1,0 +1,37 @@
+.CarouselProduct_product {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 70px;
+
+}
+.CarouselProduct_full_display {
+  padding: 50px;
+}
+
+.left_arrow_logo {
+  display: flex;
+  width: 42px;
+  height: 42px;
+  padding: 10px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  border: 1.5px solid rgba(217, 217, 217, 0.7);
+  background: var(--Border-v2, rgba(176, 176, 176, 0.15));
+}
+
+.right_arrow_logo {
+  display: flex;
+  width: 42px;
+  height: 42px;
+  padding: 10px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  border: 1.5px solid rgba(217, 217, 217, 0.7);
+  background: #0f5061;
+}

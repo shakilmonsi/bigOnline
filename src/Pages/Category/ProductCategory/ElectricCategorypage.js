@@ -2,6 +2,7 @@ import React from 'react';
 import RightSitesection from './RightSit/RightSitesection';
 import LeftSite from './LeftSite/LeftSite';
 import DelProduct from './categoryProducts/DelProduct';
+import CarouselProduct from './carouselproduct/CarouselProduct';
 
 const ElectricCategorypage=()=> {
     return (
@@ -10,7 +11,7 @@ const ElectricCategorypage=()=> {
 
 {/* <div > */}
        
-
+<CarouselProduct></CarouselProduct>
 
 
 <DelProduct></DelProduct>
