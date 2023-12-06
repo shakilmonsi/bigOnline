@@ -1,5 +1,4 @@
 
-
 import { createBrowserRouter } from "react-router-dom";
 import Main from "../../layout/Main";
 import Home from "../../Pages/Home/Home/Home";
@@ -9,15 +8,14 @@ import Profile from "../../Pages/Others/Profile/Profile";
 import TermsAndConditions from "../../Pages/Others/TermsAndContions/TermsAndConditions";
 import PrivateRoute from "../PrivateRoute/PrivateRoute";
 import ProductDitils from "../../ProdcutDitils/ProductDitils/ProductsDitilpage/ProducditilsPattopat/ProductDitils";
-// import ElectricCategorypageAllCompomentandpattopat from "../../Pages/Home/Home/ElectricCategorypages/ElectricCategorypageAllCompoment/ElectricCategorypageAllCompomentandpattopat";
 import FourProductTypeSectionAllComponent from "../../Pages/Shared/FourProductTypeSection/FourProductTypeSectionAllComponent";
-import ElectricCategorypage from "../../Pages/Category/ProductCategory/ElectricCategorypage";
 import Catagoryfivepage from "../../Pages/ProdcutCatagoryFivepage/Catagorys/CatagoryFiveallPage/Catagoryfivepage";
 import BusnessSellerPage from "../../Pages/BusinessSellerpage/BusnessSellerPage/BusnessSellerPage";
 import ViewAllBusnesspage from "../../Pages/ViewAllBusnesspage/ViewAllBusnesspage/ViewAllBusnesspage";
 import ViewAllPageTwo from "../../Pages/ViewAllPageTwo/ViewAllPageTwo/ViewAllPageTwo";
 import DashboardLoayut from "../../layout/DashboardLoayut/DashboardLoayut/DashboardLoayut";
 import MyOrders from "../../Pages/Dashboard/MyOrders/MyOrders/MyOrders";
+import ElectricCategorypage from "../../Pages/Category/ProductCategory/ElectricCategorypage";
 
 export const routes = createBrowserRouter([
     {
@@ -55,10 +53,19 @@ export const routes = createBrowserRouter([
             //     path: '/electricCategorypage',
             //     element:<ElectricCategorypageAllCompoment></ElectricCategorypageAllCompoment>
             // },
+
             // {
             //     path: '/electricCategorypage',
             //     element:<ElectricCategorypageAllCompomentandpattopat></ElectricCategorypageAllCompomentandpattopat>
             // },
+
+         
+            {
+                path: '/electricCategorypage',
+                element:<ElectricCategorypage></ElectricCategorypage>
+            },
+
+         
             {
                 path: '/fourProductTypeSection',
                 element:<FourProductTypeSectionAllComponent></FourProductTypeSectionAllComponent>
