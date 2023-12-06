@@ -64,7 +64,7 @@ const FourProductTypeSectionLeftSite = () => {
 
 
 <div className='row'>
-    <div className='decond_header_dropdown_section_setup gap-3' style={{marginTop:"24px"}}>
+    <div className='decond_header_dropdown_section_setup gap-2' style={{marginTop:"24px"}}>
    
        {/* 111  */}
        <div className="body_and_dropdown_pat " style={{ width:"auto",height:"35px",textDecoration:"none"}}>
@@ -217,7 +217,7 @@ const FourProductTypeSectionLeftSite = () => {
        {/* 9  */}
        <div className="body_and_dropdown_pat " style={{ width:"auto",height:"35px",textDecoration:"none"}}>
            
-       <div className='gap-4'>
+       <div className='gap-1 d-flex'>
 <img className='' style={{color:"#2A2A2A"}} src={black} alt=''></img>
     <span className='in_stock_style'>  Black </span>
     
@@ -236,22 +236,8 @@ const FourProductTypeSectionLeftSite = () => {
 
          </div>
          {/* 10 */}
-
-
-
-
     </div>
-
-
-
 </div>
-
-
-
-
-
-
-
 
 <div>
     <FourProductTypeSectionLeftSitePrducts></FourProductTypeSectionLeftSitePrducts>

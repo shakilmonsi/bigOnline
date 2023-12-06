@@ -16,14 +16,20 @@ const BusnessSellerPage=()=> {
      <img src={bannerfive}></img>
      </div>
      <BusinessSellerNavber></BusinessSellerNavber>
+
+     <div style={{paddingLeft:"101px",paddingRight:"101px"}}>
      <AllSeller></AllSeller>
 
 
-     <YouMightalsobeinterestedin></YouMightalsobeinterestedin>
-     <Catagrytrowelproducts></Catagrytrowelproducts>
+<YouMightalsobeinterestedin></YouMightalsobeinterestedin>
+<Catagrytrowelproducts></Catagrytrowelproducts>
 
-     <ExptorOurtopHomePromotor></ExptorOurtopHomePromotor>
-     <SellerFooter></SellerFooter>
+<ExptorOurtopHomePromotor></ExptorOurtopHomePromotor>
+     </div>
+   <div style={{marginTop:"15px"}}>
+   <SellerFooter></SellerFooter>
+   </div>
+    
      <Servicses></Servicses>
             
 </div>

@@ -17,11 +17,17 @@ const ViewAllBusnesspage=()=> {
      <img src={bannerfive}></img>
      </div>
               <BusinessSellerNavber></BusinessSellerNavber>
-              <ViewSellerAll></ViewSellerAll>
+
+            <div style={{paddingLeft:"103px",paddingRight:"101px"}}>
+            <ViewSellerAll></ViewSellerAll>
               <ExptorOurtopHomePromotor></ExptorOurtopHomePromotor>
               <Catagrytrowelproducts></Catagrytrowelproducts>
               <ExploreOurTopHomBusiness></ExploreOurTopHomBusiness>
+            </div>
+
+              <div style={{marginTop:"15px"}}>
               <SellerFooter></SellerFooter>
+              </div>
               <Servicses></Servicses>
             
         </div>

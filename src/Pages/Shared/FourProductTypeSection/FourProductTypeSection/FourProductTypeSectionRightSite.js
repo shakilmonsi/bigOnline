@@ -17,7 +17,8 @@ import green from "../../../../assets/ElectricCategorypageAllCompomentLogo/green
 
 const FourProductTypeSectionRightSite = () => {
   return (
-    <div className="row">
+   <section className="catagory_section_setup">
+     <div className="row">
       <div className=" ">
         <div>
           {/* title  section  */}
@@ -815,6 +816,7 @@ const FourProductTypeSectionRightSite = () => {
       </div>
       {/* product ditils  site setup and  style  */}
     </div>
+   </section>
   );
 };
 

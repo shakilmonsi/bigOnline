@@ -431,7 +431,7 @@ const AllSeller = () => {
 //setup complet
   return (
     
-    <div className=''style={{marginTop:'47px', paddingLeft:"150px",paddingRight:"150px",borderRadius:"6px"}}>
+    <div className=''style={{marginTop:'47px',borderRadius:"6px"}}>
 
       <div className=' mt-3 py-4'>
         <div className=' grid_colams_all_seller_cards  py-4  'style={{borderRadius:"6px", paddingLeft:40,backgroundColor:"#FFFFFF"}}>

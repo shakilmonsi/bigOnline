@@ -72,14 +72,14 @@ const TrendingDealsInElectronics = () => {
                
                         <div className=' trending_dealsin_electronices' style={{ backgroundColor: "#F5F7FB" }}>
                                 <div className='d-flex justify-content-between'>
-                                        <h4 style={{ paddingRight:-339 ,color: "#000", fontSize: "22px", fontFamily: "inter", fontWeight: 500, lineHeight: "normal" }}>Trending Deals In Electronics</h4>
+                                        <h4 style={{paddingLeft:20, color: "#000", fontSize: "22px", fontFamily: "inter", fontWeight: 500, lineHeight: "normal" }}>Trending Deals In Electronics</h4>
                                         <Link to="/" className='' style={{ color: "#000", fontFamily: "inter", fontSize:  
-                                        "18px", fontWeight: 500, fontStyle: "normal", lineHeight: "normal",paddingRight:-339 }}>View All</Link>
+                                        "18px", fontWeight: 500, fontStyle: "normal", lineHeight: "normal",paddingRight:64 }}>View All</Link>
 
                                 </div>
 
 
-                               <div className='row'>
+                               <div className='mt-2'>
                                 <div  className='gap-3 
                                   TrendingDealsInElectronic_product_grid_setup'>
                                 {

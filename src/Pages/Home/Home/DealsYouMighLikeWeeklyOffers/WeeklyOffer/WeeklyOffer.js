@@ -73,11 +73,11 @@ const WeeklyOffer=()=> {
                 <div className='py-4' style={{backgroundColor:"#FAF9F6"}}>
                                   
                                   <div className='d-flex  justify-content-between mt-4 'style={{padding:"40px"}}>
-        <h4 style={{
+        <h4 style={{ paddingLeft:23,
           color: "#000", fontSize: "22px", fontFamily: "inter",
           fontWeight: 500, lineHeight: "normal"
         }}>Weekly Offer</h4>
-        <Link to="/" className='' style={{ color: "#000", fontFamily: "inter", fontSize: "18px", fontWeight: 500, fontStyle: "normal", lineHeight: "normal" }}>View All</Link>
+        <Link to="/" className='' style={{ paddingRight:70,color: "#000", fontFamily: "inter", fontSize: "18px", fontWeight: 500, fontStyle: "normal", lineHeight: "normal" }}>View All</Link>
 
       </div>
 
