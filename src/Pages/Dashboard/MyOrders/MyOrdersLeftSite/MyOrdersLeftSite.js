@@ -3,11 +3,11 @@ import "./MyOrdersLeftSite.css"
 
 const MyOrdersLeftSite=()=> {
     return (
-        <div>
+        <div    style={{ paddingLeft: "108px" }}> 
                 {/* Recent Orders section setup  */}
                 <div
               className="myorder_site "
-              style={{ marginLeft: 100 }}
+           
             >
              
 
