@@ -134,8 +134,8 @@ const RelatedProductsDitilsPages = () => {
     return (
         <section className=' ' style={{ backgroundColor: "#FFFFFF" ,marginTop:"47px",padding:"40px"}}>
              <div className='d-flex justify-content-between'style={{padding:"20px"}}>
-                                <h4 style={{color:"#000", fontSize:"22px",fontFamily:"inter",fontWeight:500,lineHeight:"normal"}}>Recommended For You</h4>
-                                <Link to="/" className='' style={{color:"#000",fontFamily:"inter",fontSize:"18px",fontWeight:500,fontStyle:"normal",lineHeight:"normal"}}>View All</Link>
+                                <h4 style={{color:"#000", marginLeft:"23px", fontSize:"22px",fontFamily:"inter",fontWeight:500,lineHeight:"normal"}}>Recommended For You</h4>
+                                <Link to="/" className='' style={{color:"#000",fontFamily:"inter",marginRight:"45px",  fontSize:"18px",fontWeight:500,fontStyle:"normal",lineHeight:"normal"}}>View All</Link>
 
                         </div>
 

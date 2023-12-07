@@ -1,0 +1,16 @@
+.style_ditils_page_navber{
+    text-decoration: none;
+    color: var(--Gray, rgba(0, 0, 0, 0.65));
+font-family: "Inter";
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.line_style_paduct{
+    margin-top: 4px;
+    width: 1px;
+height: 12px;
+    background: #B0B0B0;
+}
