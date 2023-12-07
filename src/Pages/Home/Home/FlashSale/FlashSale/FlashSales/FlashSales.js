@@ -107,10 +107,10 @@ const FlashSales = () => {
         //  ]
 
         return (
-                <section className='' style={{background: "#F5F7FB", padding:"40px",marginTop:"47px"}}>
+                <section className='py-4' style={{background: "#F5F7FB",marginTop:"47px",paddingLeft:"85px", paddingRight:"79px"}}>
 
 
-                        <div className='d-flex justify-content-between mt-3'>
+                        <div className='d-flex justify-content-between mt-4'>
                                  
                                  <div className='d-flex gap-4'>
 
@@ -150,13 +150,8 @@ const FlashSales = () => {
                                                 >Sec</span> </h6>
 
                                                </div>
-
-
                                                 </div>    
-                             
-                             
-                             
-                             
+     
                                 </div>
                                
 
@@ -171,7 +166,7 @@ const FlashSales = () => {
 
                                  </div>
                                  <div>
-                                 <Link to="/" className='' style={{ color: "#000", fontFamily: "inter", fontSize: "18px", fontWeight: 500, fontStyle: "normal", lineHeight: "normal" }}>View All</Link>
+                                 <Link to="/" className='' style={{ paddingRight:30, color: "#000", fontFamily: "inter", fontSize: "18px", fontWeight: 500, fontStyle: "normal", lineHeight: "normal" }}>View All</Link>
 
                                  </div>
                           
@@ -179,8 +174,9 @@ const FlashSales = () => {
 
 
                         </div>
-                        <div className=' mt-4'>
-                        <div className=' grid_flashsalesData_grid_setup ms-4 gap-4 '>
+
+                        <div className=' mt-4 '>
+                        <div className=' grid_flashsalesData_grid_setup'>
                         {
         flashsalesData.map(servic => <FlashsaleCard
                 key={servic.id}

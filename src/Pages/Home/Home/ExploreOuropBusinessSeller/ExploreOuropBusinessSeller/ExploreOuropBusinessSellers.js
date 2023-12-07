@@ -133,19 +133,20 @@ const ExploreOuropBusinessSellers = () => {
 //setup complet 
         return (
 
-                <div className='ms-4' style={{backgroundColor:"#FFFFFF",marginTop:"47px",padding:"35px"}}>
+                <div className='py-4' style={{backgroundColor:"#FFFFFF",marginTop:"47px"}}>
 
-                        <div className='d-flex justify-content-between'>
-                                <h4 style={{
-                                        color: "#000", fontSize: "22px", fontFamily: "inter",
+                      <div style={{marginLeft:"85px",marginRight:"79px"}}>
+                      <div className='d-flex justify-content-between'>
+                                <h4 style={{paddingLeft:0,
+                                        color: "#000", fontSize: "22px", fontFamily: "inter" ,
                                         fontWeight: 500, lineHeight: "normal"
                                 }}>Explore Our Top Business Seller</h4>
-                                <Link to="/viewAllBusnesspage" className='' style={{ color: "#000", fontFamily: "inter", fontSize: "18px", fontWeight: 500, fontStyle: "normal", lineHeight: "normal" }}>View All</Link>
+                                <Link to="/viewAllBusnesspage" className='' style={{paddingRight:"23px", color: "#000", fontFamily: "inter", fontSize: "18px", fontWeight: 500, fontStyle: "normal", lineHeight: "normal" }}>View All</Link>
 
                         </div>
 
                         <div className=' mt-3'>
-                                <div className='explore_Our_Top_Business_Seller_grid_setup ms-2  gap-4'>
+                                <div className='Top_Business_Seller_grid_setup'>
                                         {
                                                 exploreOuropBusinessSellersData?.map(exploreOuropBusinessSeller =>
                                                          <ExploreOuropBusinessSeller
@@ -158,6 +159,7 @@ const ExploreOuropBusinessSellers = () => {
 
                                 </div>
                         </div>
+                      </div>
                 </div>
 
 

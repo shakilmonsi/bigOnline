@@ -70,17 +70,17 @@ const TrendingDealsInElectronics = () => {
         ]
         return (
                
-                        <div className=' trending_dealsin_electronices' style={{ backgroundColor: "#F5F7FB" }}>
+                        <div className=' trending_dealsin_electronices' style={{ backgroundColor: "#F5F7FB",paddingLeft:"85px" ,paddingRight:"79px"}}>
                                 <div className='d-flex justify-content-between'>
-                                        <h4 style={{paddingLeft:20, color: "#000", fontSize: "22px", fontFamily: "inter", fontWeight: 500, lineHeight: "normal" }}>Trending Deals In Electronics</h4>
+                                        <h4 style={{paddingLeft:8, color: "#000", fontSize: "22px", fontFamily: "inter", fontWeight: 500, lineHeight: "normal" }}>Trending Deals In Electronics</h4>
                                         <Link to="/" className='' style={{ color: "#000", fontFamily: "inter", fontSize:  
-                                        "18px", fontWeight: 500, fontStyle: "normal", lineHeight: "normal",paddingRight:64 }}>View All</Link>
+                                        "18px", fontWeight: 500, fontStyle: "normal", lineHeight: "normal",paddingRight:28 }}>View All</Link>
 
                                 </div>
 
 
-                               <div className='mt-2'>
-                                <div  className='gap-3 
+                               <div className='mt-3'>
+                                <div  className='
                                   TrendingDealsInElectronic_product_grid_setup'>
                                 {
                                         servicesData.map(servic => <TrendingDealsInElectronic

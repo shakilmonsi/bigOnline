@@ -56,10 +56,10 @@ const Trustedsmss = () => {
               
         ]
         return (
-                <section className=' Paidng_item' style={{ backgroundColor: "#FFF",marginTop:"47px" }}>
+                <section className=' Paidng_item' style={{ backgroundColor: "#FFF",marginTop:"47px",paddingLeft:"85px",paddingRight:"70px" }}>
                         <div className='d-flex justify-content-between'>
-                                <h4 style={{color:"#000", fontSize:"22px",fontFamily:"inter",fontWeight:500,lineHeight:"normal"}}>Trusted Brand</h4>
-                                <Link to="/" className='' style={{color:"#000",fontFamily:"inter",fontSize:"18px",fontWeight:500,fontStyle:"normal",lineHeight:"normal"}}>View All</Link>
+                                <h4 style={{color:"#000", fontSize:"22px",fontFamily:"inter",  paddingLeft:"14px",fontWeight:500,lineHeight:"normal"}}>Trusted Brand</h4>
+                                <Link to="/" className='' style={{color:"#000",fontFamily:"inter", paddingRight:"36px",fontSize:"18px",fontWeight:500,fontStyle:"normal",lineHeight:"normal"}}>View All</Link>
 
                         </div>
 

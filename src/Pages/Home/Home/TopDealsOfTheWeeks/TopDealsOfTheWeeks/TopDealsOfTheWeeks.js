@@ -140,16 +140,16 @@ const TopDealsOfTheWeeks = () => {
 
 // setup complet
     return (
-        <section className='py-4' style={{ backgroundColor: "#FFFFFF",marginTop:"47px",padding:"30xpx"}}>
+        <section className='py-4' style={{ backgroundColor: "#FFFFFF",marginTop:"47px",paddingLeft:"85px", paddingRight:"76px"}}>
             <div className='d-flex justify-content-between' style={{padding:"20px"}}>
                 <h4 style={{ color: "#000", fontSize: "22px", fontFamily: "inter", fontWeight: 500, lineHeight: "normal" }}>Top Deals Of The Week</h4>
-                <Link to="/" className='' style={{ color: "#000", fontFamily: "inter", fontSize: "18px", fontWeight: 500, fontStyle: "normal", lineHeight: "normal" }}>View All</Link>
+                <Link to="/" className='' style={{ paddingRight:18, color: "#000", fontFamily: "inter", fontSize: "18px", fontWeight: 500, fontStyle: "normal", lineHeight: "normal" }}>View All</Link>
 
             </div>
 
             <div className=''>
 
-                <div className='grid_TopDealsOfTheWeeks_item px-4 ms-4'>
+                <div className='grid_TopDealsOfTheWeeks_item'>
 
 
 

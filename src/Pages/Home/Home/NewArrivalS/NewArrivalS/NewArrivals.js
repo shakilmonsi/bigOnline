@@ -136,15 +136,15 @@ const NewArrivals = () => {
      
     ]
     return (
-        <section className=' py-3' style={{ backgroundColor: "#FFFFFF", paddingLeft:50 }}>
+        <section className=' py-3' style={{ backgroundColor: "#FFFFFF" ,paddingRight:"79px",paddingLeft:"85px"}}>
              <div className='d-flex justify-content-between py-4'>
-                                <h4 style={{color:"#000",paddingLeft:39, fontSize:"22px",fontFamily:"inter",fontWeight:500,lineHeight:"normal"}}>New Arrival</h4>
+                                <h4 style={{color:"#000",paddingLeft:"30px", fontSize:"22px",fontFamily:"inter",fontWeight:500,lineHeight:"normal"}}>New Arrival</h4>
                                 <Link to="/" className='' style={{color:"#000",fontFamily:"inter",fontSize:"18px", 
-                                fontWeight:500,fontStyle:"normal",lineHeight:"normal" ,paddingRight:80}}>View All</Link>
+                                fontWeight:500,fontStyle:"normal",lineHeight:"normal" ,paddingRight:"40px"}}>View All</Link>
 
                         </div>
 
-                        <div className=' mt-3'>
+                        <div className=' mt-3' >
 
 <div className='grid_NewArrivals_item ms-2'>
  

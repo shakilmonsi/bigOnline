@@ -1,4 +1,3 @@
-
 import { createBrowserRouter } from "react-router-dom";
 import Main from "../../layout/Main";
 import Home from "../../Pages/Home/Home/Home";
@@ -18,92 +17,94 @@ import MyOrders from "../../Pages/Dashboard/MyOrders/MyOrders/MyOrders";
 import ElectricCategorypage from "../../Pages/Category/ProductCategory/ElectricCategorypage";
 
 export const routes = createBrowserRouter([
-    {
-        path: '/',
-        element: <Main></Main>,
-        children: [
-            {
-                path: '/',
-                element: <Home></Home>,
-            },
-           
-         
-            
-            {
-                path: '/login',
-                element: <Login></Login>
-            },
-            {
-                path:'/register',
-                element: <Register></Register>
-            },
-            {
-                path: '/terms',
-                element: <TermsAndConditions></TermsAndConditions>
-            },
-            {
-                path: '/profile',
-                element: <PrivateRoute><Profile></Profile></PrivateRoute>
-            },
-            {
-                path: '/productditils',
-                element:<ProductDitils></ProductDitils>
-            },
-            // {
-            //     path: '/electricCategorypage',
-            //     element:<ElectricCategorypageAllCompoment></ElectricCategorypageAllCompoment>
-            // },
+  {
+    path: "/",
+    element: <Main></Main>,
+    children: [
+      {
+        path: "/",
+        element: <Home></Home>,
+      },
 
-            // {
-            //     path: '/electricCategorypage',
-            //     element:<ElectricCategorypageAllCompomentandpattopat></ElectricCategorypageAllCompomentandpattopat>
-            // },
-//page 3
-         
-            {
-                path: '/electricCategorypage',
-                element:<ElectricCategorypage></ElectricCategorypage>
-            },
-//page 4
-         
-            {
-                path: '/fourProductTypeSection',
-                element:<FourProductTypeSectionAllComponent></FourProductTypeSectionAllComponent>
-            },
-            //page 5
-            {
-                path: '/productsCatagoryFiveAllcomponent',
-                element:<Catagoryfivepage></Catagoryfivepage>
-            },
-            //page 6
-            {
-                path: '/busnessSellerPage',
-                element:<BusnessSellerPage></BusnessSellerPage>
-            },
-            // page 7
-            {
-                path: '/viewAllBusnesspage',
-                element:<ViewAllBusnesspage></ViewAllBusnesspage>
-            },
-            //page 8
-            {
-                path: '/viewAllPageTwo',
-                element:<ViewAllPageTwo></ViewAllPageTwo>
-            },
-            // dashboard  seting
-            // page 9
-            {
-                path: '/myDashboard',
-                element:<DashboardLoayut></DashboardLoayut>
-            },
-            //page 10
-            {
-                path: '/myOrders',
-                element:<MyOrders></MyOrders>
-            },
+      {
+        path: "/login",
+        element: <Login></Login>,
+      },
+      {
+        path: "/register",
+        element: <Register></Register>,
+      },
+      {
+        path: "/terms",
+        element: <TermsAndConditions></TermsAndConditions>,
+      },
+      {
+        path: "/profile",
+        element: (
+          <PrivateRoute>
+            <Profile></Profile>
+          </PrivateRoute>
+        ),
+      },
+      {
+        path: "/productditils",
+        element: <ProductDitils></ProductDitils>,
+      },
+      // {
+      //     path: '/electricCategorypage',
+      //     element:<ElectricCategorypageAllCompoment></ElectricCategorypageAllCompoment>
+      // },
 
+      // {
+      //     path: '/electricCategorypage',
+      //     element:<ElectricCategorypageAllCompomentandpattopat></ElectricCategorypageAllCompomentandpattopat>
+      // },
+      
+      //page 3
 
-        ]
-    }
-])
+      {
+        path: "/electricCategorypage",
+        element: <ElectricCategorypage></ElectricCategorypage>,
+      },
+      //page 4
 
+      {
+        path: "/fourProductTypeSection",
+        element: (
+          <FourProductTypeSectionAllComponent></FourProductTypeSectionAllComponent>
+        ),
+      },
+      //page 5
+      {
+        path: "/productsCatagoryFiveAllcomponent",
+        element: <Catagoryfivepage></Catagoryfivepage>,
+      },
+      //page 6
+      {
+        path: "/busnessSellerPage",
+        element: <BusnessSellerPage></BusnessSellerPage>,
+      },
+      // page 7
+      {
+        path: "/viewAllBusnesspage",
+        element: <ViewAllBusnesspage></ViewAllBusnesspage>,
+      },
+      //page 8
+      {
+        path: "/viewAllPageTwo",
+        element: <ViewAllPageTwo></ViewAllPageTwo>,
+      },
+      // dashboard  seting
+      // page 9
+      {
+        path: "/myDashboard",
+        element: <DashboardLoayut></DashboardLoayut>,
+      },
+      //page 10
+      {
+        path: "/myOrders",
+        element: <MyOrders></MyOrders>,
+      },
+    ],
+  },
+]);

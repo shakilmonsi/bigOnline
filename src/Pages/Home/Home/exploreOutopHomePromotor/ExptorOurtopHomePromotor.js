@@ -132,7 +132,7 @@ const ExptorOurtopHomePromotor = () => {
   ];
   return (
 
-    <div className='' style={{marginTop:60,backgroundColor:"#FFFFFF",padding:"33px"}}>
+    <div className='py-4' style={{marginTop:60,backgroundColor:"#FFFFFF",paddingLeft:"86px",paddingRight:"80px"}}>
 
       <div className='d-flex justify-content-between'style={{padding:"20px"}}>
         <h4 style={{
@@ -143,8 +143,8 @@ const ExptorOurtopHomePromotor = () => {
 
       </div>
 
-      <div className='row '>
-        <div className=' grid_colams_promoter_card ms-2  gap-4'>
+      <div className=''>
+        <div className=' grid_colams_promoter_card'>
           {
             exptorOurtopHomePromotorData?.map(promoterdata => <PromoterCard key={promoterdata.id} promoterdata={promoterdata}></PromoterCard>)
 

@@ -38,13 +38,17 @@ const Home = () => {
     
 <SpecialSaleOffers></SpecialSaleOffers>
        
-       <ExploreOurTopHomBusiness></ExploreOurTopHomBusiness>
+       {/* <ExploreOurTopHomBusiness></ExploreOurTopHomBusiness> */}
        
-       <NewArrivals></NewArrivals>
-              <Trustedsmss></Trustedsmss>
      
+       {/* <ExploreOurTopHomBusiness></ExploreOurTopHomBusiness> */}
        <ExploreOurTopHomBusiness></ExploreOurTopHomBusiness>
-       <ExploreOurTopHomBusiness></ExploreOurTopHomBusiness>
+
+
+       <NewArrivals></NewArrivals>
+
+       <Trustedsmss></Trustedsmss>
+
        <RecommendedForYous></RecommendedForYous>
      
 
@@ -56,10 +60,7 @@ const Home = () => {
 
        <Catagrytrowelproducts></Catagrytrowelproducts>
        <TrendingDealsInElectronics></TrendingDealsInElectronics>
-      
-
-      
-  
+   
        <Servicses></Servicses>
 
 

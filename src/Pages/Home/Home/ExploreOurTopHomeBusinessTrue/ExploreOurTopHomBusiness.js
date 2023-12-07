@@ -130,7 +130,7 @@ const ExploreOurTopHomBusiness = () => {
 //setup complet
   return (
     
-    <div className=''style={{marginTop:'47px',backgroundColor:"#FFFFFF"}}>
+    <div className=''style={{marginTop:'47px',backgroundColor:"#FFFFFF",paddingLeft:"86px",paddingRight:"76px" }}>
 
       <div className='d-flex justify-content-between'style={{padding:"20px"}}>
         <h4 style={{
@@ -143,8 +143,8 @@ const ExploreOurTopHomBusiness = () => {
 
       </div>
 
-      <div className=' mt-3 py-4'>
-        <div className=' grid_colams_promoter_cards  ms-2  gap-4'>
+      <div className=' mt-2 py-4'>
+        <div className=' grid_top_home_seller_cards'>
           {
             exploreOurTopHomBusinesData?.map(topHomBusinesdata => <ExploreOurTopHomBusinescard key={topHomBusinesdata.id} topHomBusinesdata={topHomBusinesdata}></ExploreOurTopHomBusinescard>)
 
