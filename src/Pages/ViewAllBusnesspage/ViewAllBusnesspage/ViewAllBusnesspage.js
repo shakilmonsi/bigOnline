@@ -20,7 +20,10 @@ const ViewAllBusnesspage=()=> {
 
             <div style={{paddingLeft:"103px",paddingRight:"101px"}}>
             <ViewSellerAll></ViewSellerAll>
-              <ExptorOurtopHomePromotor></ExptorOurtopHomePromotor>
+            <div >
+            <ExptorOurtopHomePromotor></ExptorOurtopHomePromotor>
+            </div>
+          
               <Catagrytrowelproducts></Catagrytrowelproducts>
               <ExploreOurTopHomBusiness></ExploreOurTopHomBusiness>
             </div>

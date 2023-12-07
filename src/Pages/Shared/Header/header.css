@@ -1,4 +1,14 @@
 
+
+.style_text{
+color: chocolate;
+font-family: "Inter";
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
 .max-width {
   width: 90%;
   margin-left: auto;

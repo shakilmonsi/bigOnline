@@ -115,7 +115,7 @@ const Heros = () => {
           data-slide="next"
         >
           <span className="carousel-control-next-icon" aria-hidden="true" />
-          <span className="btn"></span>
+         
         </a>
       </div>
     </div>

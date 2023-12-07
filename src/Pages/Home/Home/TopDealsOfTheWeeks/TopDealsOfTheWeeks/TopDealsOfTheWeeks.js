@@ -138,7 +138,7 @@ const TopDealsOfTheWeeks = () => {
         },
     ]
 
-// setup complet
+// setup comple
     return (
         <section className='py-4' style={{ backgroundColor: "#FFFFFF",marginTop:"47px",paddingLeft:"85px", paddingRight:"76px"}}>
             <div className='d-flex justify-content-between' style={{padding:"20px"}}>

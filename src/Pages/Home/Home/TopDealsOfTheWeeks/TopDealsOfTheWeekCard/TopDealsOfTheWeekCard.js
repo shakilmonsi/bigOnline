@@ -2,6 +2,7 @@
 import React from 'react';
 import"./TopDealsOfTheWeekCard.css"
 import shopingcardicon from "../../../../../assets/shopingcardiconbutton/shopingicon.svg"
+import { Link } from 'react-router-dom';
 const TopDealsOfTheWeekCard = ({ service }) => {
         const { name, verifide,thredot,offers, description, img, price, delprice 
                  ,hardicon,redingicon,widthredingicon ,grayverifyde} = service;
@@ -128,13 +129,13 @@ const TopDealsOfTheWeekCard = ({ service }) => {
       
       
                   <div className=' border'>
-                    <button className="btn btn-dark 
+                    <Link to="/productditils" className="btn btn-dark 
                     " style={{
                         width: "235px", height: "40px", borderRadius: "5px"
                       }}>
                       <img src={shopingcardicon} style={{ width: "19.325px", height: "18.329px", color: "#FFFFFF" }}
                         alt="" /> <span style={{ fontFamily: "inter", fontStyle: "normal", lineHeight: "normal", fontWeight: 500, fontSize: "14px", color: "#FFFFFF" }}> ADD TO CART</span>
-                    </button>
+                    </Link>
                   </div>
      
                 </div>

@@ -196,15 +196,15 @@ const Header = () => {
                   <span>  <img src={menu} alt=""></img> </span>
                 </Dropdown.Toggle>
 
-                <Dropdown.Menu>
-                  <Dropdown.Item href="/productditils">my account</Dropdown.Item>
-                  <Dropdown.Item href="/electricCategorypage">Electric</Dropdown.Item>
-                  <Dropdown.Item href="/fourProductTypeSection">fourProductTypeSection</Dropdown.Item>
-                  <Dropdown.Item href="/productsCatagoryFiveAllcomponent">productsCatagoryFiveAllcomponent</Dropdown.Item>
+                <Dropdown.Menu style={{rowGap:"20px"}}>
+                  <Dropdown.Item  className="style_text"  href="/productditils">Datails</Dropdown.Item>
+                  <Dropdown.Item className="style_text" href="/electricCategorypage">Electric</Dropdown.Item>
+                  <Dropdown.Item  className="style_text"  href="/fourProductTypeSection">fourProductTypeSection</Dropdown.Item>
+                  <Dropdown.Item  className="style_text"  href="/productsCatagoryFiveAllcomponent">productsCatagoryFiveAllcomponent</Dropdown.Item>
 
-                  <Dropdown.Item href="/busnessSellerPage">busnessSellerPage</Dropdown.Item>
-                  <Dropdown.Item href="/viewAllBusnesspage">iewAllBusnesspage</Dropdown.Item>
-                  <Dropdown.Item href="/viewAllPageTwo">viewAllPageTwo</Dropdown.Item>
+                  <Dropdown.Item  className="style_text"  href="/busnessSellerPage">busnessSellerPage</Dropdown.Item>
+                  <Dropdown.Item  className="style_text"  href="/viewAllBusnesspage">iewAllBusnesspage</Dropdown.Item>
+                  <Dropdown.Item   className="style_text"  href="/viewAllPageTwo">viewAllPageTwo</Dropdown.Item>
                 </Dropdown.Menu>
               </Dropdown>
               <div>

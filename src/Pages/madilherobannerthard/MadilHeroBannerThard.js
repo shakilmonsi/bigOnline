@@ -43,11 +43,11 @@ const MadilHeroBannerThard = () => {
 
 
         return (
-                <div className='madilbanner_thrad' style={{marginTop:"47px"}}>
+                <div className='madilbanner_thrad' style={{marginTop:"47px",paddingLeft:"98px", paddingRight:"30px"}}>
                         <div className="">
-                                <div className="d-flex   ">
+                                <div className=" grid_thrad_banner  ">
                                         {
-                                                bannerData?.map(banner => <div key={banner.id} className={`hero_banner_setup mx-auto 
+                                                bannerData?.map(banner => <div key={banner.id} className={`hero_banner_setup
                                          ${banner.bgClass}`}>
                                                         <div className='d-flex ' style={{ padding: "40px", }} >
                                                                 <div className='' >
@@ -66,11 +66,7 @@ const MadilHeroBannerThard = () => {
                                                                                 margin: -15, width: "240px", height: "216px", flexShrink: 0
                                                                         }} />
                                                                 </div>
-
-
                                                         </div>
-
-
                                                 </div>)
                                         }
 

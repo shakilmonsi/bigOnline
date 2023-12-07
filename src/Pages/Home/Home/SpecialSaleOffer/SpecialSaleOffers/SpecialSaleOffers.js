@@ -81,13 +81,13 @@ const SpecialSaleOffers = () => {
         ];
 
         return (
-                <section className='  gap-3' style={{marginTop:"47px",backgroundColor:"#FFFFFF" ,padding:"30px"}}>
+                <section className=' py-4' style={{marginTop:"47px",backgroundColor:"#FFFFFF",paddingLeft:"100px",paddingRight:"40px" }}>
                         <div className='d-flex justify-content-between'>
                                 <h4 style={{
-                                        color: "#000", fontSize: "22px", fontFamily: "inter",
+                                        color: "#000", fontSize: "22px", fontFamily: "inter" , paddingLeft:"20px",
                                         fontWeight: 500, lineHeight: "normal"
                                 }}>Special Sale Offer</h4>
-                                <Link to="/" className='' style={{ color: "#000", fontFamily: "inter", fontSize: "18px", fontWeight: 500, fontStyle: "normal", lineHeight: "normal" }}>View All</Link>
+                                <Link to="/" className='' style={{paddingRight:"80px", color: "#000", fontFamily: "inter", fontSize: "18px", fontWeight: 500, fontStyle: "normal", lineHeight: "normal" }}>View All</Link>
 
                         </div>
 

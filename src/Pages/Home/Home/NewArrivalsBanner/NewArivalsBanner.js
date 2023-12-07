@@ -1,5 +1,5 @@
 import React from 'react';
-import { Col, Row } from 'react-bootstrap';
+import './newArrivalsBanner.css'
 import actvebannersection2  from "../../../../assets/SpecialSaleOffer_slider/actvebannersection2.png"
 import primarybaground  from "../../../../assets/SpecialSaleOffer_slider/primarybaground.png"
 import leptop  from "../../../../assets/SpecialSaleOffer_slider/leptop.png"
@@ -30,10 +30,10 @@ const NewArivalsBanner=()=> {
 
         ];
         return (
-            <section className='mt-4'>
+            <section className='mt-4'  style={{paddingLeft:"100px"}}>
             
                                                 <div className="">
-                                                        <div className="d-flex gap-5">
+                                                        <div className="grid_banner_two" >
                                                                 {
                                                                         bannerData?.map(banner => <div key={banner.id} className={`${banner.bgClass}`} style={{ borderRadius: "10px", height: "400px", width: "847px" }}>
                                                                                 <div className='d-flex  ' style={{ gap: 60, padding: "75px", }} >

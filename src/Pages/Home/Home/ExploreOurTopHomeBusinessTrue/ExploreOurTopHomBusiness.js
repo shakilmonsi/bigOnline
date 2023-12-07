@@ -130,7 +130,7 @@ const ExploreOurTopHomBusiness = () => {
 //setup complet
   return (
     
-    <div className=''style={{marginTop:'47px',backgroundColor:"#FFFFFF",paddingLeft:"86px",paddingRight:"76px" }}>
+    <div className=''style={{marginTop:'47px',backgroundColor:"#FFFFFF",paddingLeft:"36px",paddingRight:"76px" }}>
 
       <div className='d-flex justify-content-between'style={{padding:"20px"}}>
         <h4 style={{
