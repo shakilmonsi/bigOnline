@@ -10,8 +10,8 @@ const Main = () => {
         <div>
             <Header></Header>
         
+           
             <Sitebar></Sitebar>
-      
       
                         <Outlet></Outlet>
             <Footer></Footer>

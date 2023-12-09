@@ -645,7 +645,7 @@ const RightSitesection = () => {
 <div className='p-4'style={{marginLeft:14,marginTop:30,padding:"10px"}}>
 <h4 className='get_more_text' style={{marginTop:33}}>Get More Done Together With US</h4>
 <p className='get_more_paragrap_setyle mt-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-<button className='button_style mt-3' style={{marginLeft:59}}><span className='button_text_style'>Get Started</span></button>
+<button className='button_style_get_started mt-3' style={{marginLeft:59}}><span className='button_text_style'>Get Started</span></button>
 </div>
 
 

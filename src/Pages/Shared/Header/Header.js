@@ -198,9 +198,9 @@ const Header = () => {
 
                 <Dropdown.Menu style={{rowGap:"20px"}}>
                   <Dropdown.Item  className="style_text"  href="/productditils">Datails</Dropdown.Item>
-                  <Dropdown.Item className="style_text" href="/electricCategorypage">Electric</Dropdown.Item>
-                  <Dropdown.Item  className="style_text"  href="/fourProductTypeSection">fourProductTypeSection</Dropdown.Item>
-                  <Dropdown.Item  className="style_text"  href="/productsCatagoryFiveAllcomponent">productsCatagoryFiveAllcomponent</Dropdown.Item>
+                  <Dropdown.Item className="style_text" href="/electricCategorypage">catacory-1</Dropdown.Item>
+                  <Dropdown.Item  className="style_text"  href="/fourProductTypeSection">catacory-2</Dropdown.Item>
+                  <Dropdown.Item  className="style_text"  href="/productsCatagoryFiveAllcomponent">catacory-3</Dropdown.Item>
 
                   <Dropdown.Item  className="style_text"  href="/busnessSellerPage">busnessSellerPage</Dropdown.Item>
                   <Dropdown.Item  className="style_text"  href="/viewAllBusnesspage">iewAllBusnesspage</Dropdown.Item>
