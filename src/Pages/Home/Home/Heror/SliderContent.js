@@ -4,7 +4,7 @@ import Sitebar from "../../../../layout/siteber/Sitebar";
 
 function SliderContent({ activeIndex, sliderImage }) {
   return (
-    <section   style={{ height:4844, background: `url(${appointment})`}}>  
+    <section   style={{ height:4844, background: `url(${appointment})`,backgroundColor:"#000"}}>  
     <Sitebar></Sitebar>
          {sliderImage.map((slide, index) => ( <div  key={index} className={index === activeIndex ? "slides active" : "inactive"} >
       

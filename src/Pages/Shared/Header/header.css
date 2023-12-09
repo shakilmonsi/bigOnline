@@ -1,4 +1,7 @@
+.navber_setup_body{
 
+  background: var(--White, #FFF);
+}
 
 .style_text{
 color: chocolate;
@@ -139,6 +142,7 @@ background: #CDCDCD;
 /* . accontu_toggel_in_logo_style_setup */
 .accontu_toggel_in_logo_style_setup{
   display: flex;
+margin-right: 100px;
 padding: 9px 10px;
 justify-content: center;
 align-items: center;

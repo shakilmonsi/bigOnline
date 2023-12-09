@@ -24,15 +24,7 @@ import { Dropdown } from "react-bootstrap";
 
 
 const Header = () => {
-  const [isDropdownOpen, setDropdownOpen] = useState(false);
-
-  const toggleDropdown = () => {
-    setDropdownOpen(!isDropdownOpen);
-  };
-
-  const closeDropdown = () => {
-    setDropdownOpen(false);
-  };
+ 
 
 
   // const navLinks = <>
@@ -186,10 +178,10 @@ const Header = () => {
 
 
       {/* header dwon sectionSetup  */}
-      <div className="navbar max-width " style={{ marginLeft: 133 }}>
+      <div className="navbar navber_setup_body" >
         <div className="container-fluid">
-          <div style={{ marginRight: 30 }}>
-            <div className=" d-flex gap-2" >
+          <div style={{ marginRight: 80 }}>
+            <div className=" d-flex gap-2" style={{marginLeft:"80px"}}>
 
               <Dropdown>
                 <Dropdown.Toggle variant="" id="dropdown-basic">
@@ -286,15 +278,11 @@ const Header = () => {
               alt="Search Icon"
             />
 
-
-
-
-
           </form>
 
 
           <div className="d-flex justify-content-between align-items-center">
-            <div className="d-flex" style={{ marginTop: 14, }}>
+            <div className="d-flex" style={{ marginTop: 14, marginLeft:"100px"}}>
               <img src={notification}
                 style={{ width: "20px", height: "20px", marginRight: 0, marginTop: 3 }}
 
